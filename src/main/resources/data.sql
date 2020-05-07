@@ -1,0 +1,14 @@
+insert into user values(101, sysdate(),'Frodo');
+insert into user values(102, sysdate(),'Sam');
+insert into user values(103, sysdate(),'Merry');
+insert into user values(104, sysdate(),'Pippin');
+insert into post values(1001, 'post 1', 101);
+insert into post values(1002, 'post 2', 103);
+insert into post values(1003, 'post 3', 101);
+insert into post values(1004, 'post 4', 104);
+insert into post values(1005, 'post 5', 102);
+insert into post values(1006, 'post 6', 102);
+insert into post values(1007, 'post 7', 101);
+insert into post values(1008, 'post 8', 102);
+insert into post values(1009, 'post 9', 104);
+insert into post values(1010, 'post 10', 103);
